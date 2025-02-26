@@ -1,2 +1,2 @@
-# gas-utility-app
-Services for a gas billing application using Django.
+# google-sheets-clone
+An implementation of google sheets
