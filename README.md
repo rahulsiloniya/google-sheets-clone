@@ -1,13 +1,18 @@
 # google-sheets-clone
 An implementation of google sheets
 
-## Tech Stack
+## Requirements Met - All + Bonus (more statistical and data quality operations)
+
+### Tech Stack
 ReactJS + Typescript
 Handsontable API for data grid
 HyperFormula engine for formula parsing
 
-## Steps to Run locally
-1. nodeJS == 22.13.1, ReactJS >= 17.0.0 and npm
+### Steps to Run locally
+1. nodeJS >= 22.0.0, ReactJS >= 17.0.0 and npm >= 10.0.0
+  - versions used by me:
+  nodeJS 22.13.1
+  ReactJS 
 2. Clone repository
 3. `cd spreadsheet`
 4. `npm install`
@@ -17,7 +22,8 @@ To view host address on network run:
   `npm run dev -- --host`
 
 
-## Mathematical Functions Supported
+### Mathematical Functions Supported
+The HyperFormula engine from Handsontable supports more than 400 in-built functions and also provides the ability to implement customized functions tailored to our needs.
 1. SUM: Calculates the sum of a range of cells.
 eg. `=SUM(A1:A7)` in formula bar or directly into the output cell.
 2. AVERAGE: Calculates the average of a range of cells.
@@ -29,7 +35,7 @@ eg. `=MIN(A1:A10)`
 5. COUNT: Counts the number of cells containing numerical values in a range.
 eg. `=COUNT(Value1, Value2, ...ValueN)`
 
-## Data Quality Functions Supported
+### Data Quality Functions Supported
 1. TRIM: Removes leading and trailing whitespace from a cell.
 eg. `=TRIM("Text")`
 2. UPPER: Converts the text in a cell to uppercase.
