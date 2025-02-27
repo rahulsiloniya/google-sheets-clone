@@ -1,0 +1,119 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.spreadsheet-app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  bottom: 0;
+}
+
+.menu-bar {
+  display: flex;
+  background-color: #f1f1f1;
+  padding: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-bar div {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.menu-bar div:hover {
+  background-color: #ddd;
+}
+
+.toolbar {
+  display: flex;
+  padding: 8px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  gap: 5px;
+}
+
+.toolbar button {
+  padding: 4px 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background-color: #e9e9e9;
+}
+
+.formula-bar {
+  display: flex;
+  padding: 4px 8px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+}
+
+.cell-address {
+  width: 60px;
+  padding: 4px 8px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+
+.formula-input-container {
+  display: flex;
+  flex-grow: 1;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+
+.formula-fx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+  background-color: #f1f1f1;
+  border-right: 1px solid #ddd;
+}
+
+.formula-input {
+  flex-grow: 1;
+  padding: 4px 8px;
+  border: none;
+  outline: none;
+}
+
+.spreadsheet-container {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+/* Cell formatting classes */
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* Custom styles for Handsontable */
+.handsontable .htDimmed {
+  color: #777;
+}
+
+.handsontable .htNoWrap {
+  white-space: nowrap;
+}
+
+.handsontable .current {
+  background-color: #e2eff7 !important;
+}
+
+.handsontable .area {
+  background-color: #e2eff7 !important;
+}
