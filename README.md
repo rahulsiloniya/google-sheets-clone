@@ -4,19 +4,17 @@ An implementation of google sheets
 ## Requirements Met - All + Bonus (more statistical and data quality operations)
 
 ### Tech Stack
-ReactJS + Typescript
-Handsontable API for data grid
-HyperFormula engine for formula parsing
+- ReactJS + Typescript
+- Handsontable API for data grid
+- HyperFormula engine for formula parsing
 
 ### Steps to Run locally
 1. nodeJS >= 22.0.0, ReactJS >= 17.0.0 and npm >= 10.0.0
-  - versions used by me:
+    versions used by me:
 
-      nodeJS - 22.13.1
-
-      ReactJS - 19.0.0
-      
-      npm - 10.9.2
+    - nodeJS - 22.13.1
+    - ReactJS - 19.0.0
+    - npm - 10.9.2
 
 2. Clone repository
 3. `cd spreadsheet`
