@@ -47,4 +47,4 @@ range.
 5. FIND_AND_REPLACE: Allows users to find and replace specific text
 within a range of cells.
 
-Functions 4 and 5 can be implemented by combining a combination of `FILTER` and `REPLACE/SUBSTITUTE` formulas.
+Functions 4 and 5 can be implemented by a combination of `FILTER` and `REPLACE/SUBSTITUTE` formulas.
