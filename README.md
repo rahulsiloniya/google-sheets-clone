@@ -9,12 +9,12 @@ An implementation of google sheets
 - HyperFormula engine for formula parsing
 
 ### Steps to Run locally
-1. nodeJS >= 22.0.0, ReactJS >= 17.0.0 and npm >= 10.0.0
-    versions used by me:
+1. nodeJS >= 22.0.0, ReactJS >= 17.0.0 and npm >= 10.0.0\
+  versions used by me:
 
-    - nodeJS - 22.13.1
-    - ReactJS - 19.0.0
-    - npm - 10.9.2
+  - nodeJS - 22.13.1
+  - ReactJS - 19.0.0
+  - npm - 10.9.2
 
 2. Clone repository
 3. `cd spreadsheet`
